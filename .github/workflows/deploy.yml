@@ -23,7 +23,7 @@ jobs:
     # Run mongodb Docker container as db for testing
     services:
       mongodb:
-        image: mongodb
+        image: mongo
         ports: 
           - 2710:2717
         env:
